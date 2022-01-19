@@ -1,0 +1,13 @@
+.galleryContioner{
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .imgWrapper{
+        img{
+            width: 100%;
+        }
+        p{
+            text-align: center;
+        }
+    }
+}
